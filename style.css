@@ -1,0 +1,58 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 580px;
+  height: 560px;
+  border: solid black;
+}
+
+.board {
+  display: flex;
+  flex-direction: row;
+  width: 580px;
+  min-height: 80px;
+  border: solid black;
+  margin-bottom: 25px;
+}
+
+.board .col {
+    width: 50%;
+    text-align: center;
+}
+
+.board .col-100 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.board .col h3 {
+    text-align: center;
+    background-color:lightgray;
+    margin-top: 0;
+}
+
+.board .col-100 h3 {
+    text-align: center;
+    background-color:lightgray;
+    margin-top: 0;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.wall {
+  background-color: gray;
+}
+
+.player-1 {
+  background-color: blue;
+  border-radius: 10px;
+}
+
+.player-2 {
+  background-color: red;
+  border-radius: 10px;
+}
